@@ -68,3 +68,9 @@ int linearSearch(int arr[], int size, int value) {
     }
     return -1;
 }
+Void CopyArray(int a[], int b[], int size) {
+    for(int i=0;i<size;i++){
+        b[i[= a[i];
+}
+}
+
