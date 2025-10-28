@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "arraylib.h"
+#include "mylib.c"
 
 // #Cp — Sample usage of array helper library
 
@@ -28,3 +29,4 @@ int main(void) {
 
     return 0;
 }
+
