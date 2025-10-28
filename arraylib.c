@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "arraylib.h"
 
-// #Cp — Implementation of 1D array helper functions
+// Implementation of 1D array helper functions
 
 int findMaxIndex(int arr[], int size) {
     if (size <= 0) return -1;
@@ -68,3 +68,4 @@ int linearSearch(int arr[], int size, int value) {
     }
     return -1;
 }
+
