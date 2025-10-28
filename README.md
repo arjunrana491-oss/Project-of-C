@@ -13,6 +13,9 @@ Overall, this assignment improved our knowledge of modular programming, function
 gcc main.c arraylib.c -o arraytest
 ./arraytest
 
+# Open the terminal.
+Type: gcc main.c mylib.c arraylib.c -o prog.exe
+
 
 # Sample Output
 [3, 1, 4, 1, 5]
