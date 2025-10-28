@@ -1,7 +1,7 @@
 #ifndef ARRAYLIB_H
 #define ARRAYLIB_H
 
-// #Cp — Array helper library for 1D arrays
+// Array helper library for 1D arrays
 
 int findMaxIndex(int arr[], int size);
 int findMinIndex(int arr[], int size);
@@ -12,3 +12,4 @@ void sortArray(int arr[], int size);
 int linearSearch(int arr[], int size, int value);
 
 #endif 
+
