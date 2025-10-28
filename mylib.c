@@ -1,6 +1,5 @@
 #include "mylib.h"  // Include the header for declarations
 #include <stdlib.h>  // For abs()
-#include <math.h>    // For potential math (not used here, but included)
 
 // Function to reverse digits of a number
 int reverseDigits(int n)
@@ -13,13 +12,6 @@ int reverseDigits(int n) {
         n /= 10;
     }
     return sign * r;
-}
-
-// Helper function for power (static means it's only visible in this file)
-static int ipow(int base, int exp) {
-    int res = 1;
-    while (exp-- > 0) res *= base;
-    return res;
 }
 
 // Function to check if number is Armstrong
@@ -71,3 +63,4 @@ int isPrimePalindrome(int num) {
     if (!isPrime(num)) return 0;
     return (reverseDigits(num) == num) ? 1 : 0;
 }  
+
