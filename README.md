@@ -9,6 +9,10 @@ We also created custom "header files" like mylib.h and arraylib.h to store funct
 
 Overall, this assignment improved our knowledge of modular programming, function reusability, and code organization in C
 
+# Compile and run
+gcc main.c arraylib.c -o arraytest
+./arraytest
+
 
 # Sample Output
 [3, 1, 4, 1, 5]
