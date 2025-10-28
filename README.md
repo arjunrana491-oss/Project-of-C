@@ -8,3 +8,13 @@ We wrote programs to check Armstrong numbers, "Adams numbers, and Prime Palindro
 We also created custom "header files" like mylib.h and arraylib.h to store function declarations and improve code organization. This made our program more modular and easier to maintain.
 
 Overall, this assignment improved our knowledge of modular programming, function reusability, and code organization in C
+
+
+# Sample Output
+[3, 1, 4, 1, 5]
+Max at index 2
+[5, 1, 4, 1, 3]
+Min at index 1
+Average = 2.80
+Sorted array: [1, 1, 3, 4, 5]
+Value 4 found at index 3
